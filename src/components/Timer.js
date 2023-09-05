@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 
 const Timer = ({ dispatch, secondsRemaining }) => {
   const mins = Math.floor(secondsRemaining / 60)
